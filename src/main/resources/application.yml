@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: NBASports
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/nba
+    username: root
+    password: cdac
+  jpa:
+    hibernate:
+      ddl-auto: update
+
