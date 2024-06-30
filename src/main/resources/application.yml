@@ -6,7 +6,7 @@ spring:
     name: NBASports
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/nba
+    url: jdbc:mysql://localhost:3306/games
     username: root
     password: cdac
   jpa:
